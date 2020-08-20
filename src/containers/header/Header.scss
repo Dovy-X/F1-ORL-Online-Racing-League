@@ -1,0 +1,23 @@
+header{
+    position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        background: #f0932b;
+        font-size: 17px;
+        user-select: none;
+    nav{
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: fit-content;
+        //height: 40px;
+        color: rgb(249, 248, 244);
+    }
+}

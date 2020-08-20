@@ -1,0 +1,13 @@
+.nav-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: fit-content;
+    padding: 0 40px;
+    &:hover{
+        cursor: pointer;
+        background:#1B9CFC;
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,MAAM,EAAE,IAAI;CAIf;;AALD,AAEI,SAFK,AAEJ,MAAM,CAAA;EACH,UAAU,EAAE,OAAO;CACtB",
-    "sources": [
-        "NavItem.scss"
-    ],
-    "names": [],
-    "file": "NavItem.css"
-}
