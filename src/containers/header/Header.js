@@ -11,6 +11,11 @@ class Nav extends Component {
           <Logo/>
           <nav>
             <NavItem nav={"NEWS"}/>
+            <DropdownBox 
+            item1={'Latest Results'} 
+            item2={'F1 League'} 
+            item3={'Other Leagues'}
+            />
             <NavItem nav={"LEAGUES"}/>
             <NavItem nav={"JOIN US"}/>
             <NavItem nav={"GET TO KNOW US"}/>
