@@ -23,7 +23,7 @@ header{
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 150px;
+            width: 170px !important;
             padding: 10px;
             transition: 0.2s;
             //border: 2px solid #000;
@@ -41,14 +41,17 @@ header{
         }
         .pointer-hidden{
             visibility: hidden;
-            background-color: transparent;
+            background:transparent;
             transition: 0s;
-            transition-delay: 0s;
         }
-        .pointer-visible{
+        .pointer-color-nav{
             visibility: visible;
-            background-color: rgb(8, 70, 160);
-            transition-delay: 1.2s;
+            background:rgb(255, 115, 0);
+            transition: 0.4s;
+        }
+        .pointer-color-box{
+            visibility: visible;
+            background:rgb(8, 70, 160);
             transition: 0.4s;
         }
         .DropdownBridge{
@@ -60,11 +63,11 @@ header{
         }
         #dropdown-box{
             position: absolute;
-            top: 54px;
+            top: 50px;
             transition-delay: 0s;
             display: flex;
             justify-content: center;
-            border-radius: 4px;
+            border-radius: 10px;
             padding: 10px 20px;
         }
         .menu-hidden{
@@ -77,7 +80,7 @@ header{
             background:rgb(8, 70, 160);
             left: 5px;
             width: 155px;
-            height: 135px;
+            height: 155px;
             transition: 0.4s;
         }
         .menu-leagues{
@@ -85,7 +88,7 @@ header{
             background:rgb(8, 70, 160);
             left: 175px;
             width: 155px;
-            height: 175px;
+            height: 195px;
             transition: 0.4s;
         }
         .menu-join_us{
@@ -93,7 +96,7 @@ header{
             background:rgb(8, 70, 160);
             left: 258px;
             width: 340px;
-            height: 215px;
+            height: 240px;
             transition: 0.4s;
         }
         .menu-get_to_know_us{
@@ -101,7 +104,7 @@ header{
             background:rgb(8, 70, 160);
             left: 482px;
             width: 230px;
-            height: 140px;
+            height: 155px;
             transition: 0.4s;
         }
         .menu-about{
@@ -109,7 +112,7 @@ header{
             background:rgb(8, 70, 160);
             left: 720px;
             width: 95px;
-            height: 100px;
+            height: 105px;
             transition: 0.4s;
         }
     }

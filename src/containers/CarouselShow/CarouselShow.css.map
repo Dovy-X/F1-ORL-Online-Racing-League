@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,UAAU,EAAC,eAAe;CAE7B",
+    "sources": [
+        "CarouselShow.scss"
+    ],
+    "names": [],
+    "file": "CarouselShow.css"
+}

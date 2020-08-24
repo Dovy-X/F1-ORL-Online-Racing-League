@@ -43,7 +43,7 @@ header nav .nav-item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 150px;
+  width: 170px !important;
   padding: 10px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -65,18 +65,21 @@ header nav .DropdownPointer {
 
 header nav .pointer-hidden {
   visibility: hidden;
-  background-color: transparent;
+  background: transparent;
   -webkit-transition: 0s;
   transition: 0s;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
 }
 
-header nav .pointer-visible {
+header nav .pointer-color-nav {
   visibility: visible;
-  background-color: #0846a0;
-  -webkit-transition-delay: 1.2s;
-          transition-delay: 1.2s;
+  background: #ff7300;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .pointer-color-box {
+  visibility: visible;
+  background: #0846a0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -91,7 +94,7 @@ header nav .DropdownBridge {
 
 header nav #dropdown-box {
   position: absolute;
-  top: 54px;
+  top: 50px;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   display: -webkit-box;
@@ -100,7 +103,7 @@ header nav #dropdown-box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 10px 20px;
 }
 
@@ -116,7 +119,7 @@ header nav .menu-news {
   background: #0846a0;
   left: 5px;
   width: 155px;
-  height: 135px;
+  height: 155px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -126,7 +129,7 @@ header nav .menu-leagues {
   background: #0846a0;
   left: 175px;
   width: 155px;
-  height: 175px;
+  height: 195px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -136,7 +139,7 @@ header nav .menu-join_us {
   background: #0846a0;
   left: 258px;
   width: 340px;
-  height: 215px;
+  height: 240px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -146,7 +149,7 @@ header nav .menu-get_to_know_us {
   background: #0846a0;
   left: 482px;
   width: 230px;
-  height: 140px;
+  height: 155px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -156,7 +159,7 @@ header nav .menu-about {
   background: #0846a0;
   left: 720px;
   width: 95px;
-  height: 100px;
+  height: 105px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
