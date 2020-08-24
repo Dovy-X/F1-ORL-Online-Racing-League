@@ -13,7 +13,7 @@ header {
   margin: 0;
   width: 100%;
   height: 50px;
-  background: #f0932b;
+  background: #fd8724;
   font-size: 17px;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -26,10 +26,138 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #f9f8f4;
+}
+
+header nav .nav-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  padding: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header nav .nav-item:hover {
+  cursor: pointer;
+  background: #ff7300;
+}
+
+header nav .DropdownPointer {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: -7px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header nav .pointer-hidden {
+  visibility: hidden;
+  background-color: transparent;
+  -webkit-transition: 0s;
+  transition: 0s;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+header nav .pointer-visible {
+  visibility: visible;
+  background-color: #0846a0;
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .DropdownBridge {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 4px;
+  top: -4px;
+}
+
+header nav #dropdown-box {
+  position: absolute;
+  top: 54px;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+header nav .menu-hidden {
+  visibility: hidden;
+  background: transparent;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+header nav .menu-news {
+  visibility: visible;
+  background: #0846a0;
+  left: 5px;
+  width: 155px;
+  height: 135px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .menu-leagues {
+  visibility: visible;
+  background: #0846a0;
+  left: 175px;
+  width: 155px;
+  height: 175px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .menu-join_us {
+  visibility: visible;
+  background: #0846a0;
+  left: 258px;
+  width: 340px;
+  height: 215px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .menu-get_to_know_us {
+  visibility: visible;
+  background: #0846a0;
+  left: 482px;
+  width: 230px;
+  height: 140px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header nav .menu-about {
+  visibility: visible;
+  background: #0846a0;
+  left: 720px;
+  width: 95px;
+  height: 100px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 /*# sourceMappingURL=Header.css.map */

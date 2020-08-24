@@ -1,22 +1,116 @@
 header{
     position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 99;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        width: 100%;
-        height: 50px;
-        background: #f0932b;
-        font-size: 17px;
-        user-select: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(253, 135, 36);
+    font-size: 17px;
+    user-select: none;
     nav{
         position: relative;
         display: flex;
-        width: 100%;
-        max-width: fit-content;
+        width: fit-content;
         color: rgb(249, 248, 244);
+        //background: #000;
+        .nav-item{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            padding: 10px;
+            transition: 0.2s;
+            //border: 2px solid #000;
+            &:hover{
+                cursor: pointer;
+                background:rgb(255, 115, 0);
+            }
+        }
+        .DropdownPointer{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            top: -7px;
+            transform: rotate(45deg);
+        }
+        .pointer-hidden{
+            visibility: hidden;
+            background-color: transparent;
+            transition: 0s;
+            transition-delay: 0s;
+        }
+        .pointer-visible{
+            visibility: visible;
+            background-color: rgb(8, 70, 160);
+            transition-delay: 1.2s;
+            transition: 0.4s;
+        }
+        .DropdownBridge{
+            position: absolute;
+                background-color: transparent;
+                width: 300px;
+                height: 4px;
+                top: -4px;
+        }
+        #dropdown-box{
+            position: absolute;
+            top: 54px;
+            transition-delay: 0s;
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+            padding: 10px 20px;
+        }
+        .menu-hidden{
+            visibility: hidden;
+            background: transparent;
+            transition: 0s;
+        }
+        .menu-news{
+            visibility: visible;
+            background:rgb(8, 70, 160);
+            left: 5px;
+            width: 155px;
+            height: 135px;
+            transition: 0.4s;
+        }
+        .menu-leagues{
+            visibility: visible;
+            background:rgb(8, 70, 160);
+            left: 175px;
+            width: 155px;
+            height: 175px;
+            transition: 0.4s;
+        }
+        .menu-join_us{
+            visibility: visible;
+            background:rgb(8, 70, 160);
+            left: 258px;
+            width: 340px;
+            height: 215px;
+            transition: 0.4s;
+        }
+        .menu-get_to_know_us{
+            visibility: visible;
+            background:rgb(8, 70, 160);
+            left: 482px;
+            width: 230px;
+            height: 140px;
+            transition: 0.4s;
+        }
+        .menu-about{
+            visibility: visible;
+            background:rgb(8, 70, 160);
+            left: 720px;
+            width: 95px;
+            height: 100px;
+            transition: 0.4s;
+        }
     }
 }
