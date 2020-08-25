@@ -1,12 +1,11 @@
-
- .logo-img{
+.logo-img{
     height: 50px;
     width: 120px;
     //background:lightcoral;
     object-fit: contain;
     cursor:pointer;
     &:hover{
-        background:rgb(255, 115, 0);
+        background:rgb(143, 0, 179);
         transition: 0.2s;
     }
 }

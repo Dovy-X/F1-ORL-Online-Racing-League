@@ -1,0 +1,19 @@
+.center-img{
+    position: relative;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background:rgb(143, 0, 179);
+        transition: 0.2s;
+    }
+    .profile-img{
+        height: 30px;
+        width: 120px;
+        object-fit: contain;
+        cursor:pointer;
+        
+    }
+}

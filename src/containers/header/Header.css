@@ -13,12 +13,12 @@ header {
   margin: 0;
   width: 100%;
   height: 50px;
-  background: #fd8724;
-  font-size: 17px;
+  background: #9728b2;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  border-bottom: 2px solid #8f00b3;
 }
 
 header nav {
@@ -26,9 +26,13 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1000px;
   color: #f9f8f4;
 }
 
@@ -43,15 +47,16 @@ header nav .nav-item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px !important;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 10px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 header nav .nav-item:hover {
-  cursor: pointer;
-  background: #ff7300;
+  background: #8f00b3;
 }
 
 header nav .DropdownPointer {
@@ -72,16 +77,16 @@ header nav .pointer-hidden {
 
 header nav .pointer-color-nav {
   visibility: visible;
-  background: #ff7300;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #8f00b3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header nav .pointer-color-box {
   visibility: visible;
-  background: #0846a0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header nav .DropdownBridge {
@@ -94,16 +99,14 @@ header nav .DropdownBridge {
 
 header nav #dropdown-box {
   position: absolute;
-  top: 50px;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px 20px;
 }
 
@@ -114,53 +117,53 @@ header nav .menu-hidden {
   transition: 0s;
 }
 
-header nav .menu-news {
+header nav .menu-results {
   visibility: visible;
-  background: #0846a0;
-  left: 5px;
-  width: 155px;
-  height: 155px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  left: 10px;
+  width: 180px;
+  height: 265px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-header nav .menu-leagues {
+header nav .menu-standings {
   visibility: visible;
-  background: #0846a0;
-  left: 175px;
-  width: 155px;
-  height: 195px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  left: 210px;
+  width: 180px;
+  height: 265px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-header nav .menu-join_us {
+header nav .menu-schedule {
   visibility: visible;
-  background: #0846a0;
-  left: 258px;
-  width: 340px;
-  height: 240px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  left: 410px;
+  width: 180px;
+  height: 265px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-header nav .menu-get_to_know_us {
+header nav .menu-join-us {
   visibility: visible;
-  background: #0846a0;
-  left: 482px;
-  width: 230px;
-  height: 155px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  left: 610px;
+  width: 180px;
+  height: 220px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-header nav .menu-about {
+header nav .menu-info {
   visibility: visible;
-  background: #0846a0;
-  left: 720px;
-  width: 95px;
-  height: 105px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background: #f9f8f4;
+  left: 795px;
+  width: 210px;
+  height: 420px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=Header.css.map */

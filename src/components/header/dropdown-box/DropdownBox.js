@@ -4,20 +4,20 @@ import './DropdownBox.css';
 const DropdownBox = (p) => {
         var boxContent;
         switch(p.boxPosition){
-            case 'menu-news':
-                boxContent = ['Latest News', 'F1 League', 'Other Leagues'];
+            case 'menu-results':
+                boxContent = ['F1 - A LEAGUE', 'F1 - B LEAGUE', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
-            case 'menu-leagues':
-                boxContent = ['F1', 'Assetto Corsa', 'DiRT Rally','Project Cars'];
+            case 'menu-standings':
+                boxContent = ['F1 - A LEAGUE', 'F1 - B LEAGUE', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
-            case 'menu-join_us':
-                boxContent = ['F1-A: season 13', 'F1-B: season 13', 'Assetto Corsa Competizione: season 2', 'DiRT Rally: season 7', 'Project Cars 3: season 1'];
+            case 'menu-schedule':
+                boxContent = ['F1 - A LEAGUE', 'F1 - B LEAGUE', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
-            case 'menu-get_to_know_us':
-                boxContent = ['Be our guest on Discord', 'ORL staff', 'Drivers'];
+            case 'menu-join-us':
+                boxContent = ['FORMULA 1', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
-            case 'menu-about':
-                boxContent = ['about1', 'about2'];
+            case 'menu-info':
+                boxContent = ['FORMULA 1 rules', 'DIRT RALLY rules', 'AC COMPETIZIONE rules', 'PROJECT CARS rules', "Each League's Coordinator & Host", 'About ORL', 'Help', 'Support Us'];
                 break;
             default:
                 boxContent = [];

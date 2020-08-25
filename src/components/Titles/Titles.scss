@@ -1,0 +1,32 @@
+.titles{  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 300px;  
+    .titles-txt{
+        text-align: right;
+        color: #d6d6d6;
+        font-size: 30px;
+        font-style:italic;
+        font-family: 'Russo One', sans-serif;
+    }
+    .titles-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        .title-img-wrapper{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            width: 15%;
+            .title-img{
+                object-fit: contain;
+            }
+        }
+    }
+}

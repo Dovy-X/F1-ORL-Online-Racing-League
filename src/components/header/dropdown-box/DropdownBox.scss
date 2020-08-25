@@ -5,17 +5,16 @@
     margin:0px;
     display: flex;
     flex-direction: column;
-    //transition: 0.5s;
-    //transition-delay: 0.2s;
     list-style: none !important;
     padding: 0;
-    //background: lightcyan;
+    color: rgb(151,40,178);
     .menu-item{
         padding: 10px 0;
         cursor: pointer;
-        transition: 0.2s;
+        transition: 0.1s;
         &:hover{
-            color: rgb(253, 135, 36);
+            color: rgb(143, 0, 179);
+            font-weight: bold;
         }
     }
 }

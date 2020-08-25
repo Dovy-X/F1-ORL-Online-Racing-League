@@ -1,0 +1,46 @@
+.banner-connect{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 300px; 
+    background: lightskyblue;
+    .connect-txt{
+        text-align: right;
+        color: #d6d6d6;
+        font-size: 30px;
+        font-style:italic;
+        font-family: 'Russo One', sans-serif;
+    }
+    .connect-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%; 
+        .connect{
+            display: flex;
+            justify-content:flex-start;
+            align-items:center;
+            width: 30%;
+            border: 1px solid #444;
+            height: 60px;
+            background: rgb(124,44,225);
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            .connect-icon-wrapper{
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                margin: 10px;
+                .connect-icon{
+                    object-fit: contain;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
