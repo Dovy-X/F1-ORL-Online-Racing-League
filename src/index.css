@@ -4,15 +4,16 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background: #f9f8f4;
+  background: #7c2ce1;
+  background: linear-gradient(125deg, #7c2ce1 0%, #9728b2 50%, #812bd9 100%);
 }
 
 body .content {
+  position: relative;
   width: 1200px !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,8 +26,7 @@ body .content {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  background: #7c2ce1;
-  background: linear-gradient(125deg, #7c2ce1 0%, #9728b2 50%, #812bd9 100%);
+  margin-top: 50px;
 }
 
 code {

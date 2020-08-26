@@ -7,7 +7,9 @@ import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 import Sponsors from './components/Sponsors/Sponsors';
 import Titles from './components/Titles/Titles';
-import Banner_Connect from './components/Banner_Connect/Banner_Connect';
+import BannerConnect from './components/Banner_Connect/Banner_Connect';
+import BannerJoin from './components/BannerJoin/BannerJoin';
+import BannerVideo from './components/BannerVideo/BannerVideo';
 
 ReactDOM.render(
   <div>
@@ -16,7 +18,9 @@ ReactDOM.render(
       <CarouselShow/>
       <Sponsors/>
       <Titles/>
-      <Banner_Connect/>
+      <BannerConnect/>
+      <BannerJoin/>
+      <BannerVideo/>
     </div>
   </div>,
   document.getElementById('root')

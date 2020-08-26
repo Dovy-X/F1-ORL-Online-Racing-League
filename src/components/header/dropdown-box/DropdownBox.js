@@ -14,10 +14,10 @@ const DropdownBox = (p) => {
                 boxContent = ['F1 - A LEAGUE', 'F1 - B LEAGUE', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
             case 'menu-join-us':
-                boxContent = ['FORMULA 1', 'DIRT RALLY', 'AC COMPETIZIONE', 'PROJECT CARS'];
+                boxContent = ['FORMULA 1 (open)', 'DIRT RALLY (open)', 'AC COMPETIZIONE', 'PROJECT CARS'];
                 break;
             case 'menu-info':
-                boxContent = ['FORMULA 1 rules', 'DIRT RALLY rules', 'AC COMPETIZIONE rules', 'PROJECT CARS rules', "Each League's Coordinator & Host", 'About ORL', 'Help', 'Support Us'];
+                boxContent = ['FORMULA 1 rules', 'DIRT RALLY rules', 'AC COMPETIZIONE rules', 'PROJECT CARS rules', "Coordinators & Hosts", 'About ORL', 'Help', 'Contact Us'];
                 break;
             default:
                 boxContent = [];

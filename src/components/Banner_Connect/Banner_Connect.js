@@ -11,30 +11,30 @@ const Banner_Connect = () => {
                 CONNECT
             </h1>
             <div className="connect-wrapper">
-            <div className="connect shadow-5-ns grow">
+                <a href="https://steamcommunity.com/groups/onlineracingleague" target="_blank" rel="noopener noreferrer" className="connect shadow-5-ns grow">
                     <div className="connect-icon-wrapper">
                         <img className="connect-icon" src={steam} alt=""/>
                     </div>
-                    <div classname="c-txt">
+                    <div>
                         Join ORL community group on <b>Steam</b>
                     </div>
-                </div>
-                <div className="connect shadow-5-ns grow">
+                </a>
+                <a href="https://discord.com/invite/4srpsxB" target="_blank" rel="noopener noreferrer" className="connect shadow-5-ns grow">
                     <div className="connect-icon-wrapper">
                         <img className="connect-icon" src={discord} alt=""/>
                     </div>
-                    <div classname="c-txt">
+                    <div>
                         Chat with ORL participants on <b>Discord</b>
                     </div>
-                </div>
-                <div className="connect shadow-5-ns grow">
+                </a>
+                <a href="https://twitter.com/team_orl" target="_blank" rel="noopener noreferrer" className="connect shadow-5-ns grow">
                     <div className="connect-icon-wrapper">
                         <img className="connect-icon" src={twitter} alt=""/>
                     </div>
-                    <div classname="c-txt">
+                    <div>
                         Find the latest news of ORL on <b>Twitter</b>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );

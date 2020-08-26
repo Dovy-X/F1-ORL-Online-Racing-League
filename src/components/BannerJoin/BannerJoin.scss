@@ -1,31 +1,30 @@
-.titles{  
+ .banner-join{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     width: 100%;
-    height: 200px;  
-    .titles-txt{
+    height: 250px; 
+    .connect-txt{
         color: #d6d6d6;
         font-size: 30px;
         font-style:italic;
         font-family: 'Russo One', sans-serif;
     }
-    .titles-wrapper{
+    .join-wrapper{
         position: relative;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 100%;
-        .title-img-wrapper{
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            width: 12%;
-            .title-img{
-                object-fit: contain;
+        width: 100%; 
+        text-align: left;
+        color:#fff;
+        .step-txt{
+            width: 15%;
+            .step-nr{
+                font-size: 25px;
             }
         }
     }
-}
+ }

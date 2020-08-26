@@ -1,4 +1,4 @@
-.banner-connect {
+.banner-video {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,17 +14,21 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 200px;
+  height: 992px;
 }
 
-.banner-connect .connect-txt {
+.banner-video .video-txt {
   color: #d6d6d6;
   font-size: 30px;
   font-style: italic;
   font-family: 'Russo One', sans-serif;
 }
 
-.banner-connect .connect-wrapper {
+.banner-video .video-main {
+  border: none;
+}
+
+.banner-video .videos-wrapper {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,12 +37,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
+  height: 232px;
 }
 
-.banner-connect .connect-wrapper .connect {
+.banner-video .videos-wrapper .video-more {
+  border: none;
+  margin-top: 12px;
+}
+
+.banner-video .video {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +60,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30%;
+  width: 20%;
   border: 1px solid #444;
   height: 60px;
   background: #7c2ce1;
@@ -56,9 +68,10 @@
   cursor: pointer;
   color: #fff;
   text-decoration: none;
+  margin-top: 30px;
 }
 
-.banner-connect .connect-wrapper .connect .connect-icon-wrapper {
+.banner-video .video .video-icon-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,9 +84,9 @@
   margin: 10px;
 }
 
-.banner-connect .connect-wrapper .connect .connect-icon-wrapper .connect-icon {
+.banner-video .video .video-icon-wrapper .video-icon {
   -o-object-fit: contain;
      object-fit: contain;
   height: 40px;
 }
-/*# sourceMappingURL=Banner_Connect.css.map */
+/*# sourceMappingURL=BannerVideo.css.map */
