@@ -1,28 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CarouselShow from './containers/CarouselShow/CarouselShow';
-import './index.css';
-import Header from './containers/header/Header';
-import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Route } from 'react-router-dom';
 import 'tachyons';
-import Sponsors from './components/Sponsors/Sponsors';
-import Titles from './components/Titles/Titles';
-import BannerConnect from './components/Banner_Connect/Banner_Connect';
-import BannerJoin from './components/BannerJoin/BannerJoin';
-import BannerVideo from './components/BannerVideo/BannerVideo';
+import './main.css';
+import * as serviceWorker from './serviceWorker';
+import CarouselShow from './pages/page-home/components/CarouselShow';
+import Header from './header/Header';
+
+
+import Sponsors from './pages/page-home/components/Sponsors';
+import Titles from './pages/page-home/components/Titles';
+import BannerConnect from './pages/page-home/components/BannerConnect';
+import BannerJoin from './pages/page-home/components/BannerJoin';
+import BannerVideo from './pages/page-home/components/BannerVideo';
 
 ReactDOM.render(
-  <div>
-    <Header />
-    <div className="content" >
-      <CarouselShow/>
-      <Sponsors/>
-      <Titles/>
-      <BannerConnect/>
-      <BannerJoin/>
-      <BannerVideo/>
+  <BrowserRouter>
+    <div>
+      <Header />
+      <div className="content" >
+        <CarouselShow/>
+        <Sponsors/>
+        <Titles/>
+        <BannerConnect/>
+        <BannerJoin/>
+        <BannerVideo/>
+      </div>
     </div>
-  </div>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

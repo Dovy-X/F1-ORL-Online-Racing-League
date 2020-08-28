@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    height: 100%;
+    //background:rgb(249, 248, 244);
+    background: rgb(124,44,225);
+    background: linear-gradient(125deg, rgba(124,44,225,1) 0%, rgba(151,40,178,1) 50%, rgba(129,43,217,1) 100%);
+
+    .content{
+      position: relative;
+      width: 1200px !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+// // Header
+// @import "./containers/header/Header.scss";
+// @import "./header/styles/DropdownBox.scss"; 
+// @import "./header/styles/Logo.scss";
+// @import "./header/styles/Profile.scss";
+
+// // Home Page
+// @import "./components/BannerJoin/BannerJoin.scss";
+// @import "./pages/page-home/styles/BannerConnect.scss";
