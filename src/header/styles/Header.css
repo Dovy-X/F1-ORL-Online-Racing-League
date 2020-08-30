@@ -122,7 +122,7 @@ header nav .menu-results {
   background: #f9f8f4;
   left: 10px;
   width: 180px;
-  height: 240px;
+  height: 260px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -132,7 +132,7 @@ header nav .menu-standings {
   background: #f9f8f4;
   left: 210px;
   width: 180px;
-  height: 240px;
+  height: 260px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -142,7 +142,7 @@ header nav .menu-schedule {
   background: #f9f8f4;
   left: 410px;
   width: 180px;
-  height: 240px;
+  height: 260px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -151,7 +151,7 @@ header nav .menu-join-us {
   visibility: visible;
   background: #f9f8f4;
   left: 610px;
-  width: 180px;
+  width: 190px;
   height: 195px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -162,7 +162,7 @@ header nav .menu-info {
   background: #f9f8f4;
   left: 790px;
   width: 220px;
-  height: 375px;
+  height: 395px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

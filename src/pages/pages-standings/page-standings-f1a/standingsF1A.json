@@ -1,0 +1,23 @@
+{"standings_f1a":[
+    {"DRIVER":"Jarno Opmeer",       "CAR":"Alfa Romeo Racing C39 - Ferrari",    "POINTS":125},
+    {"DRIVER":"Josh Idowu",         "CAR":"Haas VF-20 - Ferrari",               "POINTS":60},
+    {"DRIVER":"Bari Boroumand",     "CAR":"Mercedes-AMG F1 W11 EQ",             "POINTS":46},
+    {"DRIVER":"Frederik Rasmussen", "CAR":"Red Bull Racing RB16 - Honda",       "POINTS":38},
+    {"DRIVER":"SHZ HaZe",           "CAR":"Mercedes-AMG F1 W11 EQ",             "POINTS":37},
+    {"DRIVER":"Nicolás Mateo",      "CAR":"Alfa Romeo Racing C39 - Ferrari",    "POINTS":30},
+    {"DRIVER":"Alvaro Carreton",    "CAR":"Williams FW43 - Mercedes",           "POINTS":27},
+    {"DRIVER":"Tomek Poradzisz",    "CAR":"McLaren MCL35 - Renault",            "POINTS":22},
+    {"DRIVER":"Foton",              "CAR":"AlphaTauri AT01 - Honda",            "POINTS":18},	
+    {"DRIVER":"James Baldwin",      "CAR":"McLaren MCL35 - Renault",            "POINTS":16},
+    {"DRIVER":"Simon Weigang",      "CAR":"Haas VF-20 - Ferrari",               "POINTS":10},
+    {"DRIVER":"Tino Naukkarinen",   "CAR":"Williams FW43 - Mercedes",           "POINTS":8},
+    {"DRIVER":"Roy Arnouts",        "CAR":"Red Bull Racing RB16 - Honda",       "POINTS":4},
+    {"DRIVER":"Juss Parek",         "CAR":"AlphaTauri AT01 - Honda",            "POINTS":3},
+    {"DRIVER":"VSR Antoine",        "CAR":"Racing Point RP20 - Mercedes",       "POINTS":2},
+    {"DRIVER":"Alvaro Aznar",       "CAR":"Renault R.S.20",                     "POINTS":1},
+    {"DRIVER":"Bernardo Perez",     "CAR":"Renault R.S.20",                     "POINTS":1},
+    {"DRIVER":"Napadovskiy13",      "CAR":"Scuderia Ferrari SF1000",            "POINTS":0},
+    {"DRIVER":"driShanaka Clayver", "CAR":"Racing Point RP20 - Mercedes",       "POINTS":0},
+    {"DRIVER":"Manuel Biancolilla", "CAR":"Scuderia Ferrari SF1000",            "POINTS":0},
+    {"DRIVER":"driver",             "CAR":"car",                                "POINTS":null}
+]}
