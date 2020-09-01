@@ -1,7 +1,6 @@
 .page-standings{
     margin-top:10px;
     width: 100%;
-    height: 100vh;
     position: relative;
     display: flex;
     //justify-content: center;
@@ -15,9 +14,8 @@
         align-items: center;
         color: #fff;
         font-size: 40px;
-        padding: 40px;
-        font-family: 'Russo One', sans-serif;
-        
+        margin-top: 40px;
+        font-family: 'Russo One', sans-serif;  
     }
     .page-standings-league-title{
         width: 100%;
@@ -27,13 +25,22 @@
         align-items: center;
         color: #fff;
         font-size: 25px;
-        padding: 15px;
-        
+        margin-bottom: 50px;
     }
     .selection{
         width: 150px;
     }
     .page-standings-table{
         margin-top: 20px;
+        border-radius: 10px;
+        #standings-table-f1{
+            :nth-child(1){&:hover{:nth-child(1n){transition:0.3s; background:#C9B037}}}
+            :nth-child(2){&:hover{:nth-child(1n){transition:0.3s; background:#D7D7D7}}}
+            :nth-child(3){&:hover{:nth-child(1n){transition:0.3s; background:#AD8A56}}}
+            #standings-table-f1-row{
+                // &:hover{background: rgba(151,40,178, 0.5);}
+            }
+        }
+        
     }
 }

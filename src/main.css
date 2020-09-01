@@ -7,7 +7,6 @@ body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
   background: #7c2ce1;
   background: linear-gradient(125deg, #7c2ce1 0%, #9728b2 50%, #812bd9 100%);
   background-repeat: no-repeat;

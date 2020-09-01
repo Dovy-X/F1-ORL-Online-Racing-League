@@ -1,23 +1,1430 @@
-{"standings_f1a":[
-    {"DRIVER":"Jarno Opmeer",       "CAR":"Alfa Romeo Racing C39 - Ferrari",    "POINTS":125},
-    {"DRIVER":"Josh Idowu",         "CAR":"Haas VF-20 - Ferrari",               "POINTS":60},
-    {"DRIVER":"Bari Boroumand",     "CAR":"Mercedes-AMG F1 W11 EQ",             "POINTS":46},
-    {"DRIVER":"Frederik Rasmussen", "CAR":"Red Bull Racing RB16 - Honda",       "POINTS":38},
-    {"DRIVER":"SHZ HaZe",           "CAR":"Mercedes-AMG F1 W11 EQ",             "POINTS":37},
-    {"DRIVER":"Nicolás Mateo",      "CAR":"Alfa Romeo Racing C39 - Ferrari",    "POINTS":30},
-    {"DRIVER":"Alvaro Carreton",    "CAR":"Williams FW43 - Mercedes",           "POINTS":27},
-    {"DRIVER":"Tomek Poradzisz",    "CAR":"McLaren MCL35 - Renault",            "POINTS":22},
-    {"DRIVER":"Foton",              "CAR":"AlphaTauri AT01 - Honda",            "POINTS":18},	
-    {"DRIVER":"James Baldwin",      "CAR":"McLaren MCL35 - Renault",            "POINTS":16},
-    {"DRIVER":"Simon Weigang",      "CAR":"Haas VF-20 - Ferrari",               "POINTS":10},
-    {"DRIVER":"Tino Naukkarinen",   "CAR":"Williams FW43 - Mercedes",           "POINTS":8},
-    {"DRIVER":"Roy Arnouts",        "CAR":"Red Bull Racing RB16 - Honda",       "POINTS":4},
-    {"DRIVER":"Juss Parek",         "CAR":"AlphaTauri AT01 - Honda",            "POINTS":3},
-    {"DRIVER":"VSR Antoine",        "CAR":"Racing Point RP20 - Mercedes",       "POINTS":2},
-    {"DRIVER":"Alvaro Aznar",       "CAR":"Renault R.S.20",                     "POINTS":1},
-    {"DRIVER":"Bernardo Perez",     "CAR":"Renault R.S.20",                     "POINTS":1},
-    {"DRIVER":"Napadovskiy13",      "CAR":"Scuderia Ferrari SF1000",            "POINTS":0},
-    {"DRIVER":"driShanaka Clayver", "CAR":"Racing Point RP20 - Mercedes",       "POINTS":0},
-    {"DRIVER":"Manuel Biancolilla", "CAR":"Scuderia Ferrari SF1000",            "POINTS":0},
-    {"DRIVER":"driver",             "CAR":"car",                                "POINTS":null}
-]}
+{
+    "S13": [
+        {
+            "DRIVER": "Jarno Opmeer",
+            "CAR": "Alfa Romeo Racing C39 - Ferrari",
+            "POINTS": "125"
+        },
+        {
+            "DRIVER": "Josh Idowu",
+            "CAR": "Haas VF-20 - Ferrari",
+            "POINTS": "60"
+        },
+        {
+            "DRIVER": "Bari Boroumand",
+            "CAR": "Mercedes-AMG F1 W11 EQ",
+            "POINTS": "46"
+        },
+        {
+            "DRIVER": "Frederik Rasmussen",
+            "CAR": "Red Bull Racing RB16 - Honda",
+            "POINTS": "38"
+        },
+        {
+            "DRIVER": "SHZ HaZe",
+            "CAR": "Mercedes-AMG F1 W11 EQ",
+            "POINTS": "37"
+        },
+        {
+            "DRIVER": "Nicolás Mateo",
+            "CAR": "Alfa Romeo Racing C39 - Ferrari",
+            "POINTS": "30"
+        },
+        {
+            "DRIVER": "Alvaro Carreton",
+            "CAR": "Williams FW43 - Mercedes",
+            "POINTS": "27"
+        },
+        {
+            "DRIVER": "Tomek Poradzisz",
+            "CAR": "McLaren MCL35 - Renault",
+            "POINTS": "22"
+        },
+        {
+            "DRIVER": "Foton",
+            "CAR": "AlphaTauri AT01 - Honda",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "James Baldwin",
+            "CAR": "McLaren MCL35 - Renault",
+            "POINTS": "16"
+        },
+        {
+            "DRIVER": "Simon Weigang",
+            "CAR": "Haas VF-20 - Ferrari",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Tino Naukkarinen",
+            "CAR": "Williams FW43 - Mercedes",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "Roy Arnouts",
+            "CAR": "Red Bull Racing RB16 - Honda",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Juss Parek",
+            "CAR": "AlphaTauri AT01 - Honda",
+            "POINTS": "3"
+        },
+        {
+            "DRIVER": "VSR Antoine",
+            "CAR": "Racing Point RP20 - Mercedes",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Alvaro Aznar",
+            "CAR": "Renault R.S.20",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "Bernardo Perez",
+            "CAR": "Renault R.S.20",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "Napadovskiy13",
+            "CAR": "Scuderia Ferrari SF1000",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Shanaka Clay",
+            "CAR": "Racing Point RP20 - Mercedes",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Manuel Biancolilla",
+            "CAR": "Scuderia Ferrari SF1000",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Tim Palm",
+            "CAR": "Reserve",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "Ruben Vallejo",
+            "CAR": "Reserve",
+            "POINTS": "16"
+        },
+        {
+            "DRIVER": "Sven Knöller",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "VSR Corni",
+            "CAR": "Reserve",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "lucasuk",
+            "CAR": "Reserve",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Kamil Komoń",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        }
+    ],
+    "S12": [
+        {
+            "DRIVER": "Jarno Opmeer",
+            "CAR": "Mercedes F1 W10 EQ Power+",
+            "POINTS": "190"
+        },
+        {
+            "DRIVER": "Simon Weigang",
+            "CAR": "McLaren MCL34 - Renault",
+            "POINTS": "107"
+        },
+        {
+            "DRIVER": "VSR Infamous",
+            "CAR": "Renault R.S.19",
+            "POINTS": "96"
+        },
+        {
+            "DRIVER": "CRG Napadovskiy13",
+            "CAR": "Williams FW42 - Mercedes",
+            "POINTS": "87"
+        },
+        {
+            "DRIVER": "Sven Zürner",
+            "CAR": "McLaren MCL34 - Renault",
+            "POINTS": "56"
+        },
+        {
+            "DRIVER": "SHZ HaZe",
+            "CAR": "Red Bull RB15 - Honda",
+            "POINTS": "56"
+        },
+        {
+            "DRIVER": "Kamil Komoń",
+            "CAR": "Toro Rosso STR14 - Honda",
+            "POINTS": "55"
+        },
+        {
+            "DRIVER": "CRG Jan Fehler",
+            "CAR": "Racing Point RP19 - Mercedes",
+            "POINTS": "41"
+        },
+        {
+            "DRIVER": "VSR Flying F1NN",
+            "CAR": "Red Bull RB15 - Honda",
+            "POINTS": "39"
+        },
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "Alfa Romeo C38 - Ferrari",
+            "POINTS": "38"
+        },
+        {
+            "DRIVER": "Bernardo Pérez",
+            "CAR": "Williams FW42 - Mercedes",
+            "POINTS": "33"
+        },
+        {
+            "DRIVER": "Fabrizio Donoso",
+            "CAR": "Mercedes F1 W10 EQ Power+",
+            "POINTS": "28"
+        },
+        {
+            "DRIVER": "Foton",
+            "CAR": "Ferrari SF90",
+            "POINTS": "25"
+        },
+        {
+            "DRIVER": "SHZ zOneS",
+            "CAR": "Haas VF-19 - Ferrari",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "Arsen Kardanov",
+            "CAR": "Alfa Romeo C38 - Ferrari",
+            "POINTS": "16"
+        },
+        {
+            "DRIVER": "S2V_AlvaroAznar",
+            "CAR": "Toro Rosso STR14 - Honda",
+            "POINTS": "15"
+        },
+        {
+            "DRIVER": "VSR Jake",
+            "CAR": "Renault R.S.19",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "SHZ Br0wniE",
+            "CAR": "Haas VF-19 - Ferrari",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Sztív",
+            "CAR": "Ferrari SF90",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Lennard",
+            "CAR": "Racing Point RP19 - Mercedes",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Speedbari",
+            "CAR": "Reserve",
+            "POINTS": "99"
+        },
+        {
+            "DRIVER": "Alvaro Carreton",
+            "CAR": "Reserve",
+            "POINTS": "61"
+        },
+        {
+            "DRIVER": "VSR Corno",
+            "CAR": "Reserve",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "VSR Onyx",
+            "CAR": "Reserve",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "Michael Romanidis",
+            "CAR": "Reserve",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "Dani Bereznay",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "James Baldwin",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "VSR Kevin",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "OZ Julien",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "SHZ Crusix",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "BoomSonK",
+            "CAR": "Reserve",
+            "POINTS": "3"
+        }
+    ],
+    "S11": [
+        {
+            "DRIVER": "Foton",
+            "CAR": "Toro Rosso STR14 - Honda",
+            "POINTS": "296"
+        },
+        {
+            "DRIVER": "Veloce_FormulaDani",
+            "CAR": "Alfa Romeo C38 - Ferrari",
+            "POINTS": "187"
+        },
+        {
+            "DRIVER": "Napadovskiy13",
+            "CAR": "Red Bull RB15 - Honda",
+            "POINTS": "180"
+        },
+        {
+            "DRIVER": "Veloce_Hyperz",
+            "CAR": "Mercedes F1 W10 EQ Power+",
+            "POINTS": "170"
+        },
+        {
+            "DRIVER": "Leman",
+            "CAR": "Williams FW42 - Mercedes",
+            "POINTS": "120"
+        },
+        {
+            "DRIVER": "Michael Romanidis",
+            "CAR": "Reserve",
+            "POINTS": "83"
+        },
+        {
+            "DRIVER": "marc313",
+            "CAR": "Ferrari SF90",
+            "POINTS": "79"
+        },
+        {
+            "DRIVER": "Leopard_06",
+            "CAR": "McLaren MCL34 - Renault",
+            "POINTS": "74"
+        },
+        {
+            "DRIVER": "Mathias",
+            "CAR": "Williams FW42 - Mercedes",
+            "POINTS": "73"
+        },
+        {
+            "DRIVER": "SHZ zOneS",
+            "CAR": "Reserve",
+            "POINTS": "60"
+        },
+        {
+            "DRIVER": "Matthias Cologon",
+            "CAR": "Red Bull RB15 - Honda",
+            "POINTS": "56"
+        },
+        {
+            "DRIVER": "iNamelezz",
+            "CAR": "Ferrari SF90",
+            "POINTS": "53"
+        },
+        {
+            "DRIVER": "etnictrn",
+            "CAR": "Reserve",
+            "POINTS": "51"
+        },
+        {
+            "DRIVER": "Crusix",
+            "CAR": "Haas VF-19 - Ferrari",
+            "POINTS": "49"
+        },
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "Toro Rosso STR14 - Honda",
+            "POINTS": "41"
+        },
+        {
+            "DRIVER": "WOW125",
+            "CAR": "Renault R.S.19",
+            "POINTS": "38"
+        },
+        {
+            "DRIVER": "SHZ Br0wniE",
+            "CAR": "Renault R.S.19",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "VP Hadler",
+            "CAR": "Haas VF-19 - Ferrari",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "Kopy",
+            "CAR": "McLaren MCL34 - Renault",
+            "POINTS": "35"
+        },
+        {
+            "DRIVER": "Fabrizio Donoso",
+            "CAR": "Mercedes F1 W10 EQ Power+",
+            "POINTS": "33"
+        },
+        {
+            "DRIVER": "Sztív",
+            "CAR": "Racing Point RP19 - Mercedes",
+            "POINTS": "33"
+        },
+        {
+            "DRIVER": "VSR Soron",
+            "CAR": "Racing Point RP19 - Mercedes",
+            "POINTS": "33"
+        },
+        {
+            "DRIVER": "Infamous",
+            "CAR": "Reserve",
+            "POINTS": "33"
+        },
+        {
+            "DRIVER": "Kardanov",
+            "CAR": "Reserve",
+            "POINTS": "27"
+        },
+        {
+            "DRIVER": "andinator",
+            "CAR": "Reserve",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "ARC | Paddy",
+            "CAR": "Reserve",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "Veloce_Jaaames",
+            "CAR": "Alfa Romeo C38 - Ferrari",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "ERL Bulczan",
+            "CAR": "Reserve",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "Balázs Kevin",
+            "CAR": "Reserve",
+            "POINTS": "19"
+        },
+        {
+            "DRIVER": "ShaD",
+            "CAR": "Reserve",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "GetOwned",
+            "CAR": "Reserve",
+            "POINTS": "16"
+        },
+        {
+            "DRIVER": "Salih Timur Saltunç",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "Kimmy Larsson",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "Lennard",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "EL Sonny",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "VP Prešnajder",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "KaBooM",
+            "CAR": "Reserve",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "ARC | ripsn",
+            "CAR": "Reserve",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "SHZ Hz3rd",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "fxruppert",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "SpeedBari",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "Teansay",
+            "CAR": "Reserve",
+            "POINTS": "5"
+        },
+        {
+            "DRIVER": "WerkmaNN",
+            "CAR": "Reserve",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Jake",
+            "CAR": "Reserve",
+            "POINTS": "3"
+        },
+        {
+            "DRIVER": "Ulas Ozyildirim",
+            "CAR": "Reserve",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "iCurly",
+            "CAR": "Reserve",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "MarieNN",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "Flying_F1NN",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "Mr. Ankka",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "BoomSonK",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        }
+    ],
+    "S10": [
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "Renault R.S.18",
+            "POINTS": "274"
+        },
+        {
+            "DRIVER": "Veloce_FormulaDani",
+            "CAR": "Mercedes F1 W09 EQ Power+",
+            "POINTS": "269"
+        },
+        {
+            "DRIVER": "Veloce_Foton",
+            "CAR": "Ferrari SF71H",
+            "POINTS": "198"
+        },
+        {
+            "DRIVER": "Chro",
+            "CAR": "McLaren MCL33 - Renault",
+            "POINTS": "119"
+        },
+        {
+            "DRIVER": "Elsinga32",
+            "CAR": "Renault R.S.18",
+            "POINTS": "104"
+        },
+        {
+            "DRIVER": "Manuel Biancolilla",
+            "CAR": "Ferrari SF71H",
+            "POINTS": "101"
+        },
+        {
+            "DRIVER": "Williams_Timp",
+            "CAR": "Sauber C37 - Ferrari",
+            "POINTS": "95"
+        },
+        {
+            "DRIVER": "marc313",
+            "CAR": "Haas VF-18 - Ferrari",
+            "POINTS": "91"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Williams FW41 - Mercedes",
+            "POINTS": "86"
+        },
+        {
+            "DRIVER": "VSR Müller",
+            "CAR": "Toro Rosso STR13 - Honda",
+            "POINTS": "83"
+        },
+        {
+            "DRIVER": "Marko Krizman",
+            "CAR": "Reserve",
+            "POINTS": "78"
+        },
+        {
+            "DRIVER": "BlackPanthor",
+            "CAR": "Haas VF-18 - Ferrari",
+            "POINTS": "78"
+        },
+        {
+            "DRIVER": "NLE JurY",
+            "CAR": "Reserve",
+            "POINTS": "58"
+        },
+        {
+            "DRIVER": "Veloce Jaaames",
+            "CAR": "Reserve",
+            "POINTS": "55"
+        },
+        {
+            "DRIVER": "Bencytó",
+            "CAR": "Force India VJM11 - Mercedes",
+            "POINTS": "47"
+        },
+        {
+            "DRIVER": "VP_Marek",
+            "CAR": "Red Bull RB14 - TAG Heuer",
+            "POINTS": "45"
+        },
+        {
+            "DRIVER": "Fabrizio Donoso",
+            "CAR": "Reserve",
+            "POINTS": "43"
+        },
+        {
+            "DRIVER": "Kain",
+            "CAR": "Reserve",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "VSR Soron",
+            "CAR": "Red Bull RB14 - TAG Heuer",
+            "POINTS": "32"
+        },
+        {
+            "DRIVER": "Barney9209",
+            "CAR": "Force India VJM11 - Mercedes",
+            "POINTS": "24"
+        },
+        {
+            "DRIVER": "TwinBarrelJay",
+            "CAR": "Mercedes F1 W09 EQ Power+",
+            "POINTS": "22"
+        },
+        {
+            "DRIVER": "Williams_Isaac",
+            "CAR": "Reserve",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "Mekkmester",
+            "CAR": "Reserve",
+            "POINTS": "17"
+        },
+        {
+            "DRIVER": "Flexes Marci",
+            "CAR": "Reserve",
+            "POINTS": "14"
+        },
+        {
+            "DRIVER": "Dani0714",
+            "CAR": "Reserve",
+            "POINTS": "14"
+        },
+        {
+            "DRIVER": "Nagrom",
+            "CAR": "Reserve",
+            "POINTS": "13"
+        },
+        {
+            "DRIVER": "Weewbes",
+            "CAR": "Sauber C37 - Ferrari",
+            "POINTS": "13"
+        },
+        {
+            "DRIVER": "Railgone",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "TX3 dav200",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Adidas Tracksuit",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "KMH G3RRX",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "HaZe",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Toffe",
+            "CAR": "Williams FW41 - Mercedes",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "SHZ Hz3rd",
+            "CAR": "Reserve",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "Weke",
+            "CAR": "Toro Rosso STR13 - Honda",
+            "POINTS": "7"
+        },
+        {
+            "DRIVER": "f0rt1s",
+            "CAR": "Reserve",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "korky",
+            "CAR": "Reserve",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Reserve",
+            "POINTS": "3"
+        },
+        {
+            "DRIVER": "Chez",
+            "CAR": "McLaren MCL33 - Renault",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Paul Position",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "Maithyoo",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Mayce",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "✪ Zarra ✪",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Alessandro",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "G2 TÖPÄ.",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "RR ieponi",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "<<Vader>>",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        }
+    ],
+    "S9": [
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "McLaren - Honda",
+            "POINTS": "251"
+        },
+        {
+            "DRIVER": "TwinBarrelJay",
+            "CAR": "Williams - Mercedes",
+            "POINTS": "167"
+        },
+        {
+            "DRIVER": "Barney9209",
+            "CAR": "Ferrari",
+            "POINTS": "109"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Toro Rosso - Renault",
+            "POINTS": "106"
+        },
+        {
+            "DRIVER": "Why so Serious?",
+            "CAR": "Force India - Mercedes",
+            "POINTS": "105"
+        },
+        {
+            "DRIVER": "Toffe",
+            "CAR": "Red Bull Racing - TAG Heuer",
+            "POINTS": "72"
+        },
+        {
+            "DRIVER": "shOw",
+            "CAR": "Force India - Mercedes",
+            "POINTS": "69"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Mercedes",
+            "POINTS": "57"
+        },
+        {
+            "DRIVER": "BlackPanthor",
+            "CAR": "Mercedes",
+            "POINTS": "52"
+        },
+        {
+            "DRIVER": "Weewbes",
+            "CAR": "McLaren - Honda",
+            "POINTS": "47"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Haas - Ferrari",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "Lukasz-S-PL",
+            "CAR": "Red Bull Racing - TAG Heuer",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "Mayce",
+            "CAR": "Sauber - Ferrari",
+            "POINTS": "25"
+        },
+        {
+            "DRIVER": "Paulis",
+            "CAR": "Renault",
+            "POINTS": "21"
+        },
+        {
+            "DRIVER": "maithyoo",
+            "CAR": "Williams - Mercedes",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "WillB6",
+            "CAR": "Renault",
+            "POINTS": "20"
+        },
+        {
+            "DRIVER": "Yuconen",
+            "CAR": "Ferrari",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "Leo",
+            "CAR": "Reserve",
+            "POINTS": "11"
+        },
+        {
+            "DRIVER": "LikeWildFire",
+            "CAR": "Sauber - Ferrari",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Lanny",
+            "CAR": "Toro Rosso - Renault",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Weke",
+            "CAR": "Reserve",
+            "POINTS": "1"
+        },
+        {
+            "DRIVER": "<<Vader>>",
+            "CAR": "Haas - Ferrari",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "igorbryantsev",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Nagrom42",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Dobby#FreeElf",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "m_reussner",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        }
+    ],
+    "S8": [
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "McLaren - Honda",
+            "POINTS": "247"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Sauber - Ferrari",
+            "POINTS": "180"
+        },
+        {
+            "DRIVER": "Mrcmanley",
+            "CAR": "Williams - Mercedes",
+            "POINTS": "130"
+        },
+        {
+            "DRIVER": "Weewbes",
+            "CAR": "Red Bull Racing - TAG Heuer",
+            "POINTS": "104"
+        },
+        {
+            "DRIVER": "Barney9209",
+            "CAR": "Mercedes",
+            "POINTS": "100"
+        },
+        {
+            "DRIVER": "Lanny",
+            "CAR": "Mercedes",
+            "POINTS": "86"
+        },
+        {
+            "DRIVER": "Paulis",
+            "CAR": "Sauber - Ferrari",
+            "POINTS": "64"
+        },
+        {
+            "DRIVER": "Lukasz-S-PL",
+            "CAR": "Ferrari",
+            "POINTS": "61"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Ferrari",
+            "POINTS": "44"
+        },
+        {
+            "DRIVER": "A. Epifanov",
+            "CAR": "Haas - Ferrari",
+            "POINTS": "40"
+        },
+        {
+            "DRIVER": "igorbryantsev",
+            "CAR": "Williams - Mercedes",
+            "POINTS": "29"
+        },
+        {
+            "DRIVER": "berry.clement",
+            "CAR": "Force India - Mercedes",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "R. Efimov",
+            "CAR": "Toro Rosso - Ferrari",
+            "POINTS": "25"
+        },
+        {
+            "DRIVER": "WillB6",
+            "CAR": "Haas - Ferrari",
+            "POINTS": "17"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Red Bull Racing - TAG Heuer",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "<<Vader>>",
+            "CAR": "Toro Rosso - Ferrari",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "Weke",
+            "CAR": "McLaren - Honda",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "BinaryWarrioR",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "Mayce69",
+            "CAR": "MRT - Mercedes",
+            "POINTS": "5"
+        },
+        {
+            "DRIVER": "SVLF1Freak",
+            "CAR": "Renault",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "BlackPanthor",
+            "CAR": "MRT - Mercedes",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Brixxt12",
+            "CAR": "Renault",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "TheRealFlips",
+            "CAR": "Force India - Mercedes",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "Starwolf",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "YvoBro777",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        }
+    ],
+    "S7": [
+        {
+            "DRIVER": "R777R",
+            "CAR": "Williams",
+            "POINTS": "300"
+        },
+        {
+            "DRIVER": "Leo",
+            "CAR": "Mercedes",
+            "POINTS": "236"
+        },
+        {
+            "DRIVER": "Nagrom42",
+            "CAR": "Ferrari",
+            "POINTS": "181"
+        },
+        {
+            "DRIVER": "m_reussner",
+            "CAR": "McLaren",
+            "POINTS": "135"
+        },
+        {
+            "DRIVER": "shOw (Rents)",
+            "CAR": "Manor Marussia",
+            "POINTS": "123"
+        },
+        {
+            "DRIVER": "Calcifer",
+            "CAR": "Toro Rosso",
+            "POINTS": "119"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Manor Marussia",
+            "POINTS": "92"
+        },
+        {
+            "DRIVER": "Yuconen",
+            "CAR": "Red Bull",
+            "POINTS": "81"
+        },
+        {
+            "DRIVER": "Paulis",
+            "CAR": "Sauber",
+            "POINTS": "81"
+        },
+        {
+            "DRIVER": "bigbos",
+            "CAR": "Williams",
+            "POINTS": "75"
+        },
+        {
+            "DRIVER": "missle636",
+            "CAR": "Sauber",
+            "POINTS": "72"
+        },
+        {
+            "DRIVER": "R. Efimov",
+            "CAR": "McLaren",
+            "POINTS": "70"
+        },
+        {
+            "DRIVER": "Hytin",
+            "CAR": "Mercedes",
+            "POINTS": "63"
+        },
+        {
+            "DRIVER": "Mrcmanley",
+            "CAR": "Ferrari",
+            "POINTS": "55"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Lotus",
+            "POINTS": "50"
+        },
+        {
+            "DRIVER": "igorbryantsev (Yigorek)",
+            "CAR": "Lotus",
+            "POINTS": "46"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Force India",
+            "POINTS": "43"
+        },
+        {
+            "DRIVER": "Alex",
+            "CAR": "Toro Rosso",
+            "POINTS": "40"
+        },
+        {
+            "DRIVER": "Why so Serious?",
+            "CAR": "Reserve",
+            "POINTS": "30"
+        },
+        {
+            "DRIVER": "DionCaesar",
+            "CAR": "Reserve",
+            "POINTS": "25"
+        },
+        {
+            "DRIVER": "WillB6",
+            "CAR": "Red Bull",
+            "POINTS": "23"
+        },
+        {
+            "DRIVER": "Vakata02",
+            "CAR": "Reserve",
+            "POINTS": "15"
+        },
+        {
+            "DRIVER": "M. Gorodnyk",
+            "CAR": "Reserve",
+            "POINTS": "14"
+        },
+        {
+            "DRIVER": "Toffe",
+            "CAR": "Force India",
+            "POINTS": "13"
+        },
+        {
+            "DRIVER": "Cro Duke",
+            "CAR": "Reserve",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Diego Brando",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "bars054",
+            "CAR": "Reserve",
+            "POINTS": "6"
+        }
+    ],
+    "S6": [
+        {
+            "DRIVER": "R777R",
+            "CAR": "Mercedes",
+            "POINTS": "302"
+        },
+        {
+            "DRIVER": "m_reussner",
+            "CAR": "Williams",
+            "POINTS": "278"
+        },
+        {
+            "DRIVER": "Vidde",
+            "CAR": "Ferrari",
+            "POINTS": "263"
+        },
+        {
+            "DRIVER": "Leo",
+            "CAR": "Manor Marussia",
+            "POINTS": "179"
+        },
+        {
+            "DRIVER": "Rents",
+            "CAR": "Sauber",
+            "POINTS": "158"
+        },
+        {
+            "DRIVER": "Hytin",
+            "CAR": "Force India",
+            "POINTS": "143"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Lotus",
+            "POINTS": "128"
+        },
+        {
+            "DRIVER": "Vakata02",
+            "CAR": "Manor Marussia",
+            "POINTS": "119"
+        },
+        {
+            "DRIVER": "R. Efimov",
+            "CAR": "Lotus",
+            "POINTS": "64"
+        },
+        {
+            "DRIVER": "hit_orion",
+            "CAR": "McLaren",
+            "POINTS": "58"
+        },
+        {
+            "DRIVER": "Why so Serious?",
+            "CAR": "Mercedes",
+            "POINTS": "54"
+        },
+        {
+            "DRIVER": "Yuconen",
+            "CAR": "Sauber",
+            "POINTS": "44"
+        },
+        {
+            "DRIVER": "KoolKat4716",
+            "CAR": "Reserve",
+            "POINTS": "32"
+        },
+        {
+            "DRIVER": "Paulis",
+            "CAR": "Williams",
+            "POINTS": "30"
+        },
+        {
+            "DRIVER": "Alex",
+            "CAR": "McLaren",
+            "POINTS": "13"
+        },
+        {
+            "DRIVER": "Erlin Reka",
+            "CAR": "Toro Rosso",
+            "POINTS": "10"
+        },
+        {
+            "DRIVER": "Igor vanBart",
+            "CAR": "Red Bull",
+            "POINTS": "9"
+        },
+        {
+            "DRIVER": "gesh16",
+            "CAR": "Reserve",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Red Bull",
+            "POINTS": "8"
+        },
+        {
+            "DRIVER": "bigbos",
+            "CAR": "Toro Rosso",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "Birkoff",
+            "CAR": "Ferrari",
+            "POINTS": "6"
+        },
+        {
+            "DRIVER": "DionCaesar",
+            "CAR": "Reserve",
+            "POINTS": "4"
+        },
+        {
+            "DRIVER": "Lui.GG",
+            "CAR": "Reserve",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Force India",
+            "POINTS": "0"
+        },
+        {
+            "DRIVER": "GourmetPeanut",
+            "CAR": "Reserve",
+            "POINTS": "0"
+        }
+    ],
+    "S5": [
+        {
+            "DRIVER": "Emil Praga",
+            "CAR": "McLaren",
+            "POINTS": "314"
+        },
+        {
+            "DRIVER": "hit_orion",
+            "CAR": "Lotus",
+            "POINTS": "301"
+        },
+        {
+            "DRIVER": "Leo",
+            "CAR": "Red Bull",
+            "POINTS": "199"
+        },
+        {
+            "DRIVER": "Meile",
+            "CAR": "Red Bull",
+            "POINTS": "199"
+        },
+        {
+            "DRIVER": "Yigorek",
+            "CAR": "Williams",
+            "POINTS": "154"
+        },
+        {
+            "DRIVER": "Yuconen",
+            "CAR": "McLaren",
+            "POINTS": "118"
+        },
+        {
+            "DRIVER": "V@ldestroyer",
+            "CAR": "Mercedes",
+            "POINTS": "96"
+        },
+        {
+            "DRIVER": "m_reussner",
+            "CAR": "Reserve",
+            "POINTS": "70"
+        },
+        {
+            "DRIVER": "R. Efimov",
+            "CAR": "Ferrari",
+            "POINTS": "70"
+        },
+        {
+            "DRIVER": "R777R",
+            "CAR": "Toro Rosso",
+            "POINTS": "68"
+        },
+        {
+            "DRIVER": "Saytex",
+            "CAR": "Mercedes",
+            "POINTS": "53"
+        },
+        {
+            "DRIVER": "Rents",
+            "CAR": "Toro Rosso",
+            "POINTS": "51"
+        },
+        {
+            "DRIVER": "Vakata02",
+            "CAR": "Lotus",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "Cro Duke",
+            "CAR": "Sauber",
+            "POINTS": "36"
+        },
+        {
+            "DRIVER": "Alex",
+            "CAR": "Williams",
+            "POINTS": "26"
+        },
+        {
+            "DRIVER": "Paulis",
+            "CAR": "Manor Marussia",
+            "POINTS": "25"
+        },
+        {
+            "DRIVER": "Vidde",
+            "CAR": "Reserve",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "Migit",
+            "CAR": "Force India",
+            "POINTS": "18"
+        },
+        {
+            "DRIVER": "Emilio Sachs",
+            "CAR": "Ferrari",
+            "POINTS": "14"
+        },
+        {
+            "DRIVER": "Raily",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "bigbos",
+            "CAR": "Sauber",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "Hytin",
+            "CAR": "Reserve",
+            "POINTS": "12"
+        },
+        {
+            "DRIVER": "Arkhamiskatonic",
+            "CAR": "Force India",
+            "POINTS": "2"
+        },
+        {
+            "DRIVER": "Lui.GG",
+            "CAR": "Manor Marussia",
+            "POINTS": "0"
+        }
+    ]
+}

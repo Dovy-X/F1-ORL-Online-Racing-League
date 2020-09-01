@@ -1,7 +1,6 @@
 .page-standings {
   margin-top: 10px;
   width: 100%;
-  height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +28,7 @@
           align-items: center;
   color: #fff;
   font-size: 40px;
-  padding: 40px;
+  margin-top: 40px;
   font-family: 'Russo One', sans-serif;
 }
 
@@ -47,7 +46,7 @@
           align-items: center;
   color: #fff;
   font-size: 25px;
-  padding: 15px;
+  margin-bottom: 50px;
 }
 
 .page-standings .selection {
@@ -56,4 +55,23 @@
 
 .page-standings .page-standings-table {
   margin-top: 20px;
+  border-radius: 10px;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(1):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #C9B037;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(2):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #D7D7D7;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(3):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #AD8A56;
 }

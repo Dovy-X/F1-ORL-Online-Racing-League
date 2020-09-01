@@ -1,0 +1,77 @@
+.page-standings {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-standings .page-standings-title {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 40px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.page-standings .page-standings-league-title {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.page-standings .selection {
+  width: 150px;
+}
+
+.page-standings .page-standings-table {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(1):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #C9B037;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(2):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #D7D7D7;
+}
+
+.page-standings .page-standings-table #standings-table-f1 :nth-child(3):hover :nth-child(1n) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #AD8A56;
+}

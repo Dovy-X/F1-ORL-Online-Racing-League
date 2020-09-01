@@ -12,7 +12,6 @@
           flex-direction: column;
   list-style: none !important;
   padding: 0;
-  color: #9728b2;
 }
 
 .menu .menu-item {
@@ -20,6 +19,8 @@
   cursor: pointer;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+  text-decoration: none;
+  color: #9728b2;
 }
 
 .menu .menu-item:hover {
