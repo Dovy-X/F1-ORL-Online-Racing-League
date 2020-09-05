@@ -17,13 +17,16 @@ import PageScheduleF1A from './pages/pages-schedule/page-schedule-f1a/PageSchedu
 import PageScheduleF1B from './pages/pages-schedule/page-schedule-f1b/PageScheduleF1B';
 
 import Header from './header/Header';
+import Footer from './footer/Footer';
 
-
+import MobileNav from './nav-components/MobileNav';
 
 ReactDOM.render(
   <BrowserRouter>
     <div>
       <Header />
+      <MobileNav />  
+      {/* toggleMenu={} */}
       <div className="content" >
         <Route path="/" exact component={PageHome}/>
 
@@ -36,6 +39,7 @@ ReactDOM.render(
         <Route path="/schedule-f1a" exact component={PageScheduleF1A}/>
         <Route path="/schedule-f1b" exact component={PageScheduleF1B}/>
       </div>
+      <Footer />
     </div>
   </BrowserRouter>,
   document.getElementById('root')

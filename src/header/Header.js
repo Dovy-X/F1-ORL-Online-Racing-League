@@ -27,6 +27,7 @@ class Header extends Component {
     return (
       <header className="shadow-5-ns">
         <Logo />
+
         <nav onMouseLeave={this.hidden}>
           <span className="nav-item" onMouseEnter={this.results} >
             <NavItem nav={"RESULTS"} />

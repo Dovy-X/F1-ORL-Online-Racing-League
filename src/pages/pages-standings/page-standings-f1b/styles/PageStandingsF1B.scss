@@ -33,6 +33,7 @@
     .page-standings-table{
         margin-top: 20px;
         border-radius: 10px;
+        max-width: 1180px;
         #standings-table-f1{
             :nth-child(1){&:hover{:nth-child(1n){transition:0.3s; background:#C9B037}}}
             :nth-child(2){&:hover{:nth-child(1n){transition:0.3s; background:#D7D7D7}}}

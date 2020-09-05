@@ -1,3 +1,5 @@
+$nav: 99;
+
 *{
   margin:0;
   padding:0;
@@ -13,6 +15,7 @@ body {
     background: rgb(124,44,225);
     background: linear-gradient(125deg, rgba(124,44,225,1) 0%, rgba(151,40,178,1) 50%, rgba(129,43,217,1) 100%);
     background-repeat: no-repeat;
+    min-height: 100%;
 
     .content{
       position: relative;
@@ -22,7 +25,8 @@ body {
       align-items: center;
       margin: 0 auto;
       margin-top: 50px;
-      //height: fit-content;
+      overflow: auto;
+      padding-bottom: 200px;
     }
   }
   
@@ -40,3 +44,107 @@ body {
 // // Home Page
 // @import "./components/BannerJoin/BannerJoin.scss";
 // @import "./pages/page-home/styles/BannerConnect.scss";
+
+
+.mobile-nav-menu{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  //margin-top: 50px;
+  
+
+  .mobile-nav-menu-toggle{
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: $nav;
+    
+    .hamburger {
+      border-bottom: 4px solid #fff;
+      width: 30px;
+      position: absolute;
+      transition: 0.4s;
+      opacity: 1;
+    }
+
+    .linesBtn{
+      &:nth-child(1){
+        margin-top: 0px;
+      }
+      &:nth-child(2){
+        margin-top: 13px;
+      }
+      &:nth-child(3){
+        margin-top: 26px;
+      }
+    }
+    .xBtn{
+      &:nth-child(1){
+        margin-left: 0.5em;
+        transform: translateY(13px) translateX(-8px) rotate(45deg);
+      }
+      &:nth-child(2){
+        opacity: 0;
+        margin-top: 13px;
+      }
+      &:nth-child(3){
+        margin-left: 2.2em;
+        transform: translateY(13px) translateX(-35px) rotate(-45deg);
+      }
+    }
+  
+    cursor: pointer;
+    @media only screen and (min-width:1201px){
+        display: none;
+    }
+  }
+  
+  
+  .mobile-nav-menu-box{
+    position: fixed;
+    right:0;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding-bottom: 50px;
+    z-index: 99;
+    transition: 0.4s ease;
+    color: #fff;
+    background: rgb(124,44,225);
+      @media only screen and (min-width:1201px){
+          display: none;
+      }
+
+    .mobile-nav-menu-box-items-wrapper{
+      width: 100%;
+      height: 100%;
+      max-height:600px;
+      display: flex;
+      flex-direction:column;
+      justify-content: space-between;
+      align-items: center;
+
+      .mobile-nav-menu-box-item{
+        flex: 1;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        //background-color:lightblue
+      }
+    }
+  }
+  .showMenu{
+    width: 100%;
+    opacity: 0.9;
+  }
+  .hideMenu{
+    width: 0;
+    opacity: 0;
+  }
+}
+

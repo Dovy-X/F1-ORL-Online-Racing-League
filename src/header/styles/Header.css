@@ -10,6 +10,9 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   width: 100%;
   height: 50px;
@@ -57,6 +60,12 @@ header nav .nav-item {
 
 header nav .nav-item:hover {
   background: #8f00b3;
+}
+
+@media only screen and (max-width: 1200px) {
+  header nav {
+    display: none;
+  }
 }
 
 header nav .DropdownPointer {
@@ -150,9 +159,9 @@ header nav .menu-schedule {
 header nav .menu-join-us {
   visibility: visible;
   background: #f9f8f4;
-  left: 610px;
+  left: 605px;
   width: 190px;
-  height: 195px;
+  height: 215px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

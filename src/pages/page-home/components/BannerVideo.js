@@ -23,7 +23,7 @@ const BannerVideo = () => {
                     <img className="video-icon" src={youtube} alt=""/>
                 </div>
                 <div>
-                    Subscribe on <b>YouTube</b>
+                    See more content on <b>YouTube</b>
                 </div>
             </a>
         </div>

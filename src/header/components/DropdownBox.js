@@ -10,7 +10,7 @@ const DropdownBox = (p) => {
                 <Link to="/results-f1a"         className="menu-item"   >F1 - A LEAGUE</        Link>,
                 <Link to="/results-f1b"         className="menu-item"   >F1 - B LEAGUE</        Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY</           Link>,
-                <Link to="/"                    className="menu-item"   >AC COMPETIZIONE</      Link>,
+                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE</      Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS</         Link>,
             ];
             break;
@@ -19,7 +19,7 @@ const DropdownBox = (p) => {
                 <Link to="/standings-f1a"       className="menu-item"   >F1 - A LEAGUE</        Link>,
                 <Link to="/standings-f1b"       className="menu-item"   >F1 - B LEAGUE</        Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY</           Link>,
-                <Link to="/"                    className="menu-item"   >AC COMPETIZIONE</      Link>,
+                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE</      Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS</         Link>,
             ];
             break;
@@ -28,7 +28,7 @@ const DropdownBox = (p) => {
                 <Link to="/schedule-f1a"        className="menu-item"   >F1 - A LEAGUE</        Link>,
                 <Link to="/schedule-f1b"        className="menu-item"   >F1 - B LEAGUE</        Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY</           Link>,
-                <Link to="/"                    className="menu-item"   >AC COMPETIZIONE</      Link>,
+                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE</      Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS</         Link>,
             ];
             break;
@@ -36,7 +36,7 @@ const DropdownBox = (p) => {
             boxContent = [
                 <Link to="/"                    className="menu-item"   >FORMULA 1 (open)</     Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY (open)</    Link>,
-                <Link to="/"                    className="menu-item"   >AC COMPETIZIONE</      Link>,
+                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE</      Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS</         Link>,
             ];
             break;
@@ -44,7 +44,7 @@ const DropdownBox = (p) => {
             boxContent = [
                 <Link to="/"                    className="menu-item"   >FORMULA 1 rules</      Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY rules</     Link>,
-                <Link to="/"                    className="menu-item"   >AC COMPETIZIONE rules</Link>,
+                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE rules</Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS rules</   Link>,
                 <Link to="/"                    className="menu-item"   >Coordinators  Hosts</  Link>,
                 <Link to="/"                    className="menu-item"   >About ORL</            Link>,

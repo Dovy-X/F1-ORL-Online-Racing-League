@@ -5,7 +5,7 @@
     justify-content:center;
     align-items:center;
     width: 100%;
-    height: 992px; 
+    height: 1032px; 
     //background: lightskyblue;
     .video-txt{
         color: #d6d6d6;
@@ -33,7 +33,7 @@
         display: flex;
         justify-content:flex-start;
         align-items:center;
-        width: 20%;
+        width: 25%;
         border: 1px solid #444;
         height: 60px;
         background: rgb(124,44,225);
@@ -41,7 +41,8 @@
         cursor: pointer;
         color: #fff;
         text-decoration: none;
-        margin-top: 30px;
+        margin-top: 40px;
+        margin-bottom: 60px;
         .video-icon-wrapper{
             display: flex;
             justify-content:center;

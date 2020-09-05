@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 import Table from 'react-bootstrap/Table';
 import './styles/PageStandingsF1B.css';
-import StandingsF1A_json from './standingsF1B';
+import StandingsF1B_json from './standingsF1B';
 
 const options = [
     { value: 'S13', label: 'Season 13' },
@@ -12,7 +12,7 @@ const options = [
 
 class PageStandingsF1B extends Component {
     state = {
-        season: StandingsF1A_json.S13.sort(function (a, b) {
+        season: StandingsF1B_json.S13.sort(function (a, b) {
             return b.POINTS - a.POINTS
         }),
     }
@@ -20,57 +20,83 @@ class PageStandingsF1B extends Component {
     handleChange = (selectedSeason) => {
         switch (selectedSeason.value) {
             case "S13":
-                this.setState({ season: StandingsF1A_json.S13.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S13.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S12":
-                this.setState({ season: StandingsF1A_json.S12.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S12.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S11":
-                this.setState({ season: StandingsF1A_json.S11.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S11.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S10":
-                this.setState({ season: StandingsF1A_json.S10.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S10.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S9":
-                this.setState({ season: StandingsF1A_json.S9.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S9.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S8":
-                this.setState({ season: StandingsF1A_json.S8.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S8.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S7":
-                this.setState({ season: StandingsF1A_json.S7.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S7.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S6":
-                this.setState({ season: StandingsF1A_json.S6.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S6.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
             case "S5":
-                this.setState({ season: StandingsF1A_json.S5.sort(function (a, b) {
-                    return b.POINTS - a.POINTS
-                }) });
+                this.setState({
+                    season: StandingsF1B_json.S5.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
+                console.log(`Option selected:`, selectedSeason.value);
+                break;
+            default:
+                this.setState({
+                    season: StandingsF1B_json.S13.sort(function (a, b) {
+                        return b.POINTS - a.POINTS
+                    })
+                });
                 console.log(`Option selected:`, selectedSeason.value);
                 break;
         }

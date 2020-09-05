@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.1);
+    //border-top: 2px solid rgb(143, 0, 179);
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    clear:both;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 248, 244);
+}

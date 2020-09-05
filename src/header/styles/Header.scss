@@ -6,6 +6,7 @@ header{
     z-index: 99;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 100%; 
     height: 50px; 
@@ -14,6 +15,7 @@ header{
     user-select: none;
     border-bottom: 2px solid rgb(143, 0, 179);
     //background: lightseagreen;
+
     nav{
         position: relative;
         display: flex;
@@ -33,6 +35,9 @@ header{
             &:hover{
                 background:rgb(143, 0, 179);
             }
+        }
+        @media only screen and (max-width:1200px){
+            display: none;
         }
         .DropdownPointer{
             position: absolute;
@@ -103,9 +108,9 @@ header{
         .menu-join-us{
             visibility: visible;
             background:rgb(249, 248, 244);
-            left: 610px;
+            left: 605px;
             width: 190px;
-            height: 195px;
+            height: 215px;
             transition: 0.3s;
         }
         .menu-info{

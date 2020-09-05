@@ -21,6 +21,7 @@
   transition: 0.1s;
   text-decoration: none;
   color: #9728b2;
+  text-align: center;
 }
 
 .menu .menu-item:hover {
