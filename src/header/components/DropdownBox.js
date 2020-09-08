@@ -44,9 +44,9 @@ const DropdownBox = (p) => {
             boxContent = [
                 <Link to="/"                    className="menu-item"   >FORMULA 1 rules</      Link>,
                 <Link to="/"                    className="menu-item"   >DIRT RALLY rules</     Link>,
-                <Link to="/"                    className="menu-item"   >ASSETTO CORSA COMPETIZIONE rules</Link>,
+                <Link to="/"                    className="menu-item"   >ACC rules</Link>,
                 <Link to="/"                    className="menu-item"   >PROJECT CARS rules</   Link>,
-                <Link to="/"                    className="menu-item"   >Coordinators  Hosts</  Link>,
+                <Link to="/"                    className="menu-item"   >{"Coordinators & Hosts"}</  Link>,
                 <Link to="/"                    className="menu-item"   >About ORL</            Link>,
                 <Link to="/"                    className="menu-item"   >Help</                 Link>,
                 <Link to="/"                    className="menu-item"   >Contact Us</           Link>,

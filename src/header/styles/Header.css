@@ -24,6 +24,12 @@ header {
   border-bottom: 2px solid #8f00b3;
 }
 
+@media only screen and (max-width: 1200px) {
+  header {
+    background: #9728b2;
+  }
+}
+
 header nav {
   position: relative;
   display: -webkit-box;
@@ -171,7 +177,7 @@ header nav .menu-info {
   background: #f9f8f4;
   left: 790px;
   width: 220px;
-  height: 395px;
+  height: 370px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

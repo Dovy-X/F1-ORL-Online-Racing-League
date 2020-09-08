@@ -15,6 +15,9 @@ header{
     user-select: none;
     border-bottom: 2px solid rgb(143, 0, 179);
     //background: lightseagreen;
+    @media only screen and (max-width:1200px){
+        background: rgb(151,40,178);
+    }
 
     nav{
         position: relative;
@@ -118,7 +121,7 @@ header{
             background:rgb(249, 248, 244);
             left: 790px;
             width: 220px;
-            height: 395px;
+            height: 370px;
             transition: 0.3s;
         }
     }
