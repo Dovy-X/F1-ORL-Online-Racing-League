@@ -129,23 +129,23 @@ class PageStandingsF1A extends Component {
                     variant="light"
                     className="page-standings-table">
                     <thead>
-                        <tr>
+                        <tr >
                             <th>POS</th>
                             <th>DRIVER</th>
-                            <th>CAR</th>
+                            <th className="desktop">CAR</th>
                             <th>POINTS</th>
                             <th>GAP</th>
                         </tr>
                     </thead>
-                    <tbody id="standings-table-f1">
+                    <tbody id="standings-table-body">
                         {this.state.season.map((value, index) => {
                             return (
-                                <tr id="standings-table-f1-row">
-                                    <td id="standings-table-f1-pos">{index + 1}</td>
-                                    <td id="standings-table-f1-name">{value.DRIVER}</td>
-                                    <td id="standings-table-f1-car">{value.CAR}</td>
-                                    <td id="standings-table-f1-points">{value.POINTS}</td>
-                                    <td id="standings-table-f1-gap">{this.state.season[0].POINTS - value.POINTS}</td>
+                                <tr id="standings-table-body-row">
+                                    <td id="standings-table-pos">{index + 1}</td>
+                                    <td id="standings-table-name">{value.DRIVER}</td>
+                                    <td className="desktop" id="standings-table-car">{value.CAR}</td>
+                                    <td id="standings-table-points">{value.POINTS}</td>
+                                    <td id="standings-table-gap">{this.state.season[0].POINTS - value.POINTS}</td>
                                 </tr>
                             )
                         })}

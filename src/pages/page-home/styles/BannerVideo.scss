@@ -1,34 +1,57 @@
 .banner-video{
+    padding-top: 50px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     width: 100%;
-    height: 1032px; 
-    //background: lightskyblue;
+    height: fit-content; 
     .video-txt{
+        margin-bottom: 20px;
         color: #d6d6d6;
         font-size: 30px;
         font-style:italic;
         font-family: 'Russo One', sans-serif;
+        @media only screen and (max-width:1200px){
+            font-size: 25px;
+        }
     }
-    .video-main{
-        border: none;
+    
+    .video-wrapper{
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
     }
-    .videos-wrapper{
+    .iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .videos-more-wrapper{
         position: relative;
         display: flex;
         flex-direction:row;
         justify-content: space-between;
         width: 100%;
-        height: 232px;
-        .video-more{
-            border: none;
+        height: fit-content;
+        @media only screen and (max-width:1200px){
+            flex-direction:column;
+        }
+        .video-more-wrapper{
             margin-top: 12px;
+            position: relative;
+            width: 392px;
+            height: 220px;
+            @media only screen and (max-width:1200px){
+                width: 100%;
+                padding-bottom: 56.25%;
+            }
         }  
     }
-    .video{
+    .subscribe{
         position: relative;
         display: flex;
         justify-content:flex-start;
@@ -43,12 +66,16 @@
         text-decoration: none;
         margin-top: 40px;
         margin-bottom: 60px;
-        .video-icon-wrapper{
+        @media only screen and (max-width:1200px){
+            width: 300px;
+            max-width: 95%;
+        }
+        .youtube-icon-wrapper{
             display: flex;
             justify-content:center;
             align-items:center;
             margin: 10px;
-            .video-icon{
+            .youtube-icon{
                 object-fit: contain;
                 height: 40px;
             }

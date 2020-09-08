@@ -10,7 +10,7 @@ import BannerVideo from './components/BannerVideo';
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="home-page">
                 <CarouselShow/>
                 <Sponsors/>
                 <Titles/>

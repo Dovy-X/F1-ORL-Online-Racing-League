@@ -12,6 +12,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .page-standings {
+    font-size: 14px;
+  }
 }
 
 .page-standings .page-standings-title {
@@ -59,20 +66,32 @@
   max-width: 1180px;
 }
 
-.page-standings .page-standings-table #standings-table-f1 :nth-child(1):hover :nth-child(1n) {
+.page-standings .page-standings-table #standings-table-body :nth-child(1):hover :nth-child(1n) {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: #C9B037;
 }
 
-.page-standings .page-standings-table #standings-table-f1 :nth-child(2):hover :nth-child(1n) {
+.page-standings .page-standings-table #standings-table-body :nth-child(2):hover :nth-child(1n) {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: #D7D7D7;
 }
 
-.page-standings .page-standings-table #standings-table-f1 :nth-child(3):hover :nth-child(1n) {
+.page-standings .page-standings-table #standings-table-body :nth-child(3):hover :nth-child(1n) {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: #AD8A56;
+}
+
+@media only screen and (min-width: 1201px) {
+  .page-standings .page-standings-table .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .page-standings .page-standings-table .desktop {
+    display: none;
+  }
 }
